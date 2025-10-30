@@ -1,0 +1,20 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://www.alkhusyu.com/sitemap.xml
+
+# Crawlers yang diizinkan
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+# Disallow folders
+Disallow: /api/
+Disallow: /*.json$
+Disallow: /*?*
+
+# Crawl-delay (opsional, untuk menghindari server overload)
+Crawl-delay: 1
+

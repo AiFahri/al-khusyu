@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+  
+  <url>
+    <loc>https://www.alkhusyu.com/</loc>
+    <lastmod>2025-01-14</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.alkhusyu.com/kegiatan</loc>
+    <lastmod>2025-01-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.alkhusyu.com/program</loc>
+    <lastmod>2025-01-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.alkhusyu.com/prestasi</loc>
+    <lastmod>2025-01-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.alkhusyu.com/tentang</loc>
+    <lastmod>2025-01-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.alkhusyu.com/pendidikan/tk</loc>
+    <lastmod>2025-01-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.alkhusyu.com/pendidikan/madrasah</loc>
+    <lastmod>2025-01-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.alkhusyu.com/pendidikan/smp</loc>
+    <lastmod>2025-01-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.alkhusyu.com/pendidikan/smk</loc>
+    <lastmod>2025-01-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.alkhusyu.com/pendidikan/tahfidz</loc>
+    <lastmod>2025-01-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.alkhusyu.com/pendidikan/pesantren</loc>
+    <lastmod>2025-01-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.alkhusyu.com/pendidikan/diniyah</loc>
+    <lastmod>2025-01-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.alkhusyu.com/pendidikan/tpq</loc>
+    <lastmod>2025-01-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.alkhusyu.com/pendidikan/bq</loc>
+    <lastmod>2025-01-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.alkhusyu.com/pendidikan/sanggar</loc>
+    <lastmod>2025-01-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.alkhusyu.com/pendidikan/lksa</loc>
+    <lastmod>2025-01-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+</urlset>
+
+
