@@ -30,11 +30,12 @@ export const ACTIVITIES: ActivityItem[] = [
       "Maulid Nabi Muhammad Saw. merupakan salah satu momen terindah bagi umat Islam. Peringatan diisi pembacaan Maulid Diba’, doa bersama, dan kajian keteladanan Rasulullah.",
     date: "13 SEPTEMBER 2025",
     content: [
-      "Maulid Nabi Muhammad Saw. merupakan salah satu momen yang paling indah bagi umat Islam. Kata ‘maulid’ bermakna waktu kelahiran. Pada 12 Rabiul Awal, Nabi Muhammad Saw. lahir ke dunia.",
-      "Kebahagiaan tiada tara menyelimuti bumi pada waktu itu. Mensyukuri kelahiran beliau menjadi bentuk cinta yang nyata bagi umat Islam.",
-      "Al-Khusyu’ menghadirkan Maulid Diba’ sebagai bentuk syukur. Kitab karya Syekh Abdurrahman Ad-Diba’i berisi pujian dan kisah kehidupan Nabi untuk diteladani.",
-      "Puncak peringatan Maulid 1449 H berlangsung 13 September 2025 di Jombang, dihadiri hampir seluruh khalifah Al-Khusyu’. Rangkaian: pembacaan Diba’, doa, dan kajian Sunnah bersama Ibu Wildiana Zuhrina.",
-      "Inti kajian menekankan makna sholawat: tidak sekadar dilafalkan, tetapi diwujudkan lewat perubahan perilaku, pengamalan sunnah, dan aksi sosial.",
+      "Maulid Nabi Muhammad Saw. merupakan salah satu momen yang paling indah bagi umat Islam. Kata “maulid” berasal dari bahasa Arab yang bermakna “waktu kelahiran”. Pada bulan tersebut, tepatnya tanggal 12 Rabiul Awal di tahun 571 Masehi, nabi umat Islam, ciptaan Tuhan yang paling utama, pemimpin para jin dan manusia lahir di dunia tempat kita semua tinggal ini.",
+      "Kebahagiaan tiada tara menyelimuti bumi pada waktu itu. Misalkan saja, ketika seorang ibu mendengar tangisan anaknya yang baru saja lahir, banyak orang berbahagia, apalagi momen ini adalah momen kelahiran Nabi Muhammad Saw. Dapat dibayangkan, betapa bahagianya umat Islam saat momen tersebut tiba. Bahkan, bebatuan dan pepohonan pun ikut bersuka cita atas hadirnya beliau di dunia ini. Oleh sebab itu, mensyukurinya merupakan seperti kewajiban bagi setiap orang Islam.",
+      "Al-Khusyu’ hadir karena ajaran Nabi Muhammad Saw. Saat momen kelahiran beliau tiba, Al-Khusyu’ sangat bersyukur. Pembacaan Maulid Diba’ secara rutin merupakan salah satu bentuk nyatanya. Maulid Diba’ merupakan kitab karangan Syekh Abdurrahman Ad-Diba'i, berisi syair pujian serta cerita tentang kehidupan Nabi Muhammad Saw. Pembacaan kitab ini bertujuan untuk mengenang, mempelajari, dan meneladani kisah sang pemimpin umat.",
+      "Acara peringatan maulid Nabi Muhammad Saw 1449 H memuncak pada tanggal 13 September 2025. Kegiatan ini digelar di Jombang, rumah Pak Arif dan Bu Alse, dihadiri oleh hampir semua khalifah Al-Khusyu’, termasuk para santri Baitul Qur’an Al-Khusyu’ dari Malang. Rangkaian kegiatan diawali dengan pembacaan kitab Maulid Diba’, dilanjutkan dengan doa bersama yang penuh khidmat, dan diakhiri dengan kajian mengenai Sunnah Nabi Muhammad Saw bersama Ibu Wildiana Zuhrina.",
+      "Inti kajian pada acara puncak peringatan di Jombang itu adalah pemahaman tentang sholawat. Bersholawat itu tidak hanya mengucapkan kalimat sholawat, tetapi juga mengaktualisasikan sholawat dengan perbuahan. Dengan membaca sholawat, pengajian, pengamalan sunnah, dan aksi sosial, Al-Khusyu’ bersholawat, mewujudkan rasa syukur akan kelahiran beliau Nabi Muhammad Saw.",
+
     ],
   },
   {
@@ -44,11 +45,11 @@ export const ACTIVITIES: ActivityItem[] = [
       "Tidak hanya istiqomah dalam kebaikan, tetapi juga perbaikan. Supervisi dilakukan sebagai monitoring, evaluasi, dan pengembangan berkelanjutan untuk meningkatkan kualitas pembelajaran.",
     date: "22 SEPTEMBER 2025",
     content: [
-      "Supervisi merupakan aktivitas monitoring, evaluasi, dan pengembangan kegiatan. Dalam manajemen pendidikan, langkah ini krusial untuk peningkatan berkelanjutan.",
-      "Al-Khusyu’ menjalankan perencanaan, pengorganisasian, pelaksanaan, dan supervisi secara utuh: dimulai Raker, pembagian tugas, pelaksanaan KBM, lalu perbaikan.",
-      "Pada 22 September 2025, pimpinan menyupervisi RA, MI, SMP, dan SMK: monitoring kelas, pengarahan langsung dari Ibu Wildiana Zuhrina, dan praktik microteaching.",
-      "Guru menerima masukan dan mempraktikkan strategi mengajar baru. Sesi sekitar 6 jam memastikan guru paham apa yang ditingkatkan.",
-      "Supervisi rutin ini merupakan implementasi QS. Al-Hasyr:18—menyiapkan hari esok agar lebih baik.",
+      "Supervisi merupakan aktivitas monitoring, evaluasi, dan pengembangan suatu kegiatan yang telah direncanakan. Berdasarkan teori manajemen, supervisi menjadi langkah yang krusial untuk meningkatkan hasil dari kegiatan. Manajemen atau pengelolaan organisasi, termasuk lembaga pendidikan, meliputi aktivitas perencanaan, pengorganisasian, pelaksanaan, dan supervisi.",
+      "Lembaga Al-Khusyu’ menerapkan keempat langkah tersebut dalam mengelola organisasi untuk mencapai tujuan. Langkah pertama diawali dengan rapat kerja tahunan, dilanjutkan dengan pembagian tugas dan wewenang dalam pengajaran, pelaksanaan kegiatan belajar-mengajar, dan diakhiri dengan supervisi. Hasil dari supervisi tersebut akan meningkatkan kualitas proses kegiatan belajar-mengajar sehingga akan didapatkan hasil yang optimal. Misalnya, pemahaman siswa menjadi lebih baik yang ditunjukkan oleh nilai rapor.",
+      "Pada Senin, 22 September 2025, pimpinan Lembaga Al-Khusyu’ melakukan supervisi pada empat lembaga pendidikan formalnya, yaitu RA, MI, SMP, dan SMK Al-Khusyu’. Supervisi diawali dengan monitoring setiap kelas. Setelah itu, para guru dan pengurus keempat pilar pendidikan formal tersebut berkumpul dan menerima arahan langsung dari Ibu Wildiana Zuhrina.",
+      "Evaluasi dan pengembangan kali ini dilakukan untuk meningkatkan proses belajar-mengajar di kelas. Para guru menerima kritik dan masukan dengan baik. Tidak berhenti di situ, setelah materi evaluasi dan pengembangan diberikan, satu per satu guru mempraktekkan gaya mengajar yang baru di depan guru-guru lain, termasuk Ibu Ina. Proses ini memakan waktu sekiat 6 jam. Dengan demikian, para guru benar-benar memahami apa yang sudah baik dan apa yang perlu ditingkatkan dalam proses belajar-mengajar di kelas.",
+      "Supervisi yang dilakukan rutin oleh Lembaga Al-Khusyu’ merupakan penerapan firman Allah Swt dalam Surat Al-Hasyr ayat 18. Berdasarkan ayat tersebut, Allah Swt secara langsung mengajak orang beriman untuk terus memperhatikan dirinya di hari esok supaya menjadi lebih baik dan lebih baik ke depannya. Dengan diadakannya proses monitoring, evaluasi, dan pengembangan, Lembaga Al-Khusyu’ senantiasa melihat hari esok supaya lebih baik lagi dalam proses mencapai cita-citanya.",
     ],
   },
   {
@@ -58,11 +59,9 @@ export const ACTIVITIES: ActivityItem[] = [
       "SMK Al-Khusyu' kembangkan bank sampah dan pertanian sebagai wujud nyata konsep Go Green School untuk budaya peduli lingkungan.",
     date: "20 OKTOBER 2025",
     content: [
-      "Go Green School concept explained: perubahan perilaku hijau yang terukur dan berkelanjutan di sekolah.",
-      "Deskripsi kegiatan: pemilahan sampah, bank sampah berbasis poin, dan kebun sekolah sebagai living laboratory.",
-      "Metode: project-based learning, piket hijau, monitoring pengurangan sampah.",
-      "Manfaat: lingkungan bersih, karakter peduli alam, nilai ekonomi dari daur ulang.",
-      "Conclusion: budaya hijau dibangun lewat pembiasaan, edukasi, dan keteladanan.",
+      "Go Green School concept explained: perubahan perilaku hijau yang terukur dan berkelanjutan di sekolah yang bertujuan untuk membangun budaya peduli lingkungan. Kegiatan Go Green School SMK Al-Khusyu’ dimulai dengan pemilahan sampah, bank sampah berbasis poin, dan kebun sekolah sebagai living laboratory. Metode project-based learning, piket hijau, monitoring pengurangan sampah digunakan untuk mencapai manfaat lingkungan bersih, karakter peduli alam, dan nilai ekonomi dari daur ulang. Budaya hijau dibangun lewat pembiasaan, edukasi, dan keteladanan.",
+      "Go Green School SMK Al-Khusyu’ menjadi wujud nyata dari cita-cita Al-Khusyu’, yaitu menjadi lembaga pendidikan yang unggul dan berkontribusi pada pembangunan masyarakat. Semua itu menjadi landasan untuk mencapai cita-cita Al-Khusyu’, yaitu menjadi lembaga pendidikan yang unggul dan berkontribusi pada pembangunan masyarakat.",
+      "Dengan adanya Go Green School SMK Al-Khusyu’, para siswa dapat belajar dan mengajar tentang lingkungan sekitar, serta menjadi contoh bagi masyarakat umum untuk memiliki perilaku hijau yang baik dan berkelanjutan.",
     ],
   },
   {
@@ -72,10 +71,12 @@ export const ACTIVITIES: ActivityItem[] = [
       "Membaca buku, membuka dunia. Santri mempresentasikan ringkasan buku setiap bulan untuk menumbuhkan budaya literasi.",
     date: "5 OKTOBER 2025",
     content: [
-      "Reader Club (RC) Baitul Qur’an Al-Khusyu’ adalah kelompok pembaca yang mendorong santri membaca minimal satu buku per bulan dan mempresentasikannya.",
-      "Kegiatan ini mengamalkan wahyu pertama QS. Al-‘Alaq:1 tentang perintah ‘Iqra’. Dengan membaca, cakrawala pengetahuan terbuka.",
-      "Edisi keenam tahun 2025 menghadirkan presentasi berbagai genre: seni berbicara, pembentukan kebiasaan, hingga manajemen relasi.",
-      "RC membekali santri keterampilan praktis: komunikasi efektif, konsistensi habit, dan hubungan interpersonal yang sehat.",
+      "Reader Club (RC) Baitul Qur’an Al-Khusyu’ berarti kelompok pembaca. Para santri BQ sangat ditekankan untuk membaca buku, idealnya satu buku dalam satu bulan. Setelah itu, ada kegiatan resensi buku yang diadakan tiap bulan di minggu pertama. Empat sampai lima anggota mempresentasikan apa yang dibaca kepada anggota RC lain. Kegiatan ini diharapkan mampu meningkatkan budaya literasi umat Islam, khususnya para santri Baitul Qur’an Al-Khusyu’.",
+      "Kegiatan Reader Club merupakan penerapan dari wahyu yang pertama kali diterima Rasulullah Saw, yaitu Surat Al-Alaq ayat pertama. Ayat tersebut menekankan umat Islam untuk membaca. Dalam arti luas, membaca di sini mungkin tidak sebatas membaca buku. Akan tetapi, membaca buku jelas bagian dari perintah Allah tersebut.",
+      "Membaca buku itu membuka dunia. Kalimat yang sekaligus menjadi slogan RC Baitul Qur’an Al-Khusyu’ tersebut memiliki makna yang begitu dalam. Peristiwa-peristiwa hebat, pengetahuan yang mendalam, dan rahasia-rahasia dunia tersimpan dalam rangkaian kata-kata yang tertulis dalam lembaran-lembaran kertas yang dijilid rapi: buku. Para ulama, filosof, ilmuwan, serta orang hebat lainnya mendokumentasikan ilmu-ilmu dan rahasia-rahasia dunia dalam buku. Bahkan, Allah Swt juga menuntun kehidupan umat manusia melalui buku. Oleh karena itu, dengan membaca buku, cakrawala pengetahuan akan dunia akan terbuka.",
+      "Pada 5 Oktober 2025, Reader Club Baitul Qur’an Al-Khusyu’ menggelar acara bulannya yang ke-6 tahun 2025. Acara yang diselenggarakan di sanggar Al-Qur’an Malang ini menampilkan empat presenter dengan empat genre buku yang berbeda. Presenter pertama mempresentasikan buku karangan Cak Nun yang berjudul “Hidup itu harus pintar nge-gas dan nge-rem.” Inti dari buku tersebut adalah saran agar orang dapat menyadari kondisinya sehingga ia tahu kapan harus berbuat (nge-gas) dan menahan diri (nge-rem).",
+      "Presenter kedua menjelaskan tentang seni dalam komunikasi verbal. Buku yang dipresentasikan berjudul “Bicara itu Ada Seninya.” karangan ahli komunikasi Korea Selatan Oh Su Hyang. Buku ini memberikan langkah-langkah praktis supaya pembicaraan mudah diterima dan berkesan bagi orang lain. Berikutnya, presenter ketiga juga tidak jauh berbeda. Akan tetapi, buku yang dipresentasikan lebih terkhusu dalam pembentukan kebiasaan. Buku “Presenter terakhir menutup acara dengan buku yang sangat menarik kaum muda. Buku itu berjudul “The Art of Seduction” karangan Robert Greene yang mengungkap rahasia dalam merayu orang lain. Buku yang juga dianggap kontroversial ini menjelaskan bagaimana seseorang dirayu (dimanipulasi) oleh lawan jenisnya. Penjelasan trik psikologi ini memiliki manfaat yang baik untuk menjaga hubungan interpersonal, khususnya antara laki-laki dan perempuan.",
+      "Reader Club edisi ke-6 tahun 2025 membuka cakrawala pengetahuan yang bermanfaat, khususnya untuk kalangan muda. Para santri mendapatkan wawasan tentang seni atau cara-cara halus dalam kehidupan, dalam berbicara, pembentukan kebiasaan, dan pengelolaan hubungan interpersonal yang baik. Semua wawasan itu hanya bertujuan untuk hidup yang lebih baik.",
     ],
   },
   {
@@ -85,10 +86,11 @@ export const ACTIVITIES: ActivityItem[] = [
       "Menebarkan manfaat untuk para siswa dan masyarakat sekitar melalui pembangunan fasilitas belajar yang representatif.",
     date: "12 DESEMBER 2025",
     content: [
-      "Tujuan: menyediakan ruang belajar modern yang menunjang praktik DKV dan kewirausahaan digital.",
-      "Deskripsi: renovasi kelas, penambahan perangkat komputer, jaringan internet stabil, dan area pamer karya.",
-      "Manfaat: peningkatan kompetensi siswa, peluang kolaborasi industri, serta akses literasi digital bagi warga sekitar.",
-      "Conclusion: infrastruktur yang baik mempercepat lahirnya talenta kreatif dan wirausahawan muda Al-Khusyu’.",
+      "Pembangunan Lab Komputer dan Ruang Kelas SMK Al-Khusyu’ bertujuan untuk menyediakan fasilitas belajar yang modern dan memadai bagi para siswa. Fasilitas ini akan membantu siswa untuk belajar dengan lebih efektif dan produktif, serta menunjang kegiatan praktik DKV dan kewirausahaan digital.",
+      "Renovasi kelas, penambahan perangkat komputer, jaringan internet stabil, dan area pamer karya. Pembangunan ini juga akan mempercepat lahirnya talenta kreatif dan wirausahawan muda Al-Khusyu’. ",
+      "Manfaat: peningkatan kompetensi siswa, peluang kolaborasi industri, serta akses literasi digital bagi warga sekitar. Semua itu menjadi landasan untuk mencapai cita-cita Al-Khusyu’, yaitu menjadi lembaga pendidikan yang unggul dan berkontribusi pada pembangunan masyarakat. ",
+      "Pembangunan Lab Komputer dan Ruang Kelas SMK Al-Khusyu’ menjadi wujud nyata dari cita-cita Al-Khusyu’, yaitu menjadi lembaga pendidikan yang unggul dan berkontribusi pada pembangunan masyarakat. Semua itu menjadi landasan untuk mencapai cita-cita Al-Khusyu’, yaitu menjadi lembaga pendidikan yang unggul dan berkontribusi pada pembangunan masyarakat. ",
+      "Pembangunan Lab Komputer dan Ruang Kelas SMK Al-Khusyu’ menjadi wujud nyata dari cita-cita Al-Khusyu’, yaitu menjadi lembaga pendidikan yang unggul dan berkontribusi pada pembangunan masyarakat. Semua itu menjadi landasan untuk mencapai cita-cita Al-Khusyu’, yaitu menjadi lembaga pendidikan yang unggul dan berkontribusi pada pembangunan masyarakat."
     ],
   },
 ];
