@@ -10,6 +10,27 @@ interface SEOProps {
   noindex?: boolean;
 }
 
+const ORGANIZATION_SCHEMA = {
+  "@context": "https://schema.org",
+  "@type": "EducationalOrganization",
+  name: "Yayasan Pendidikan & Sosial Al-Khusyu'",
+  url: "https://www.alkhusyu.com",
+  logo: "https://www.alkhusyu.com/navbar-logo.png",
+  address: {
+    "@type": "PostalAddress",
+    addressLocality: "Blitar",
+    addressRegion: "Jawa Timur",
+    addressCountry: "ID",
+  },
+  contactPoint: {
+    "@type": "ContactPoint",
+    contactType: "customer service",
+  },
+  sameAs: [],
+  description:
+    "Yayasan Al-Khusyu' menyelenggarakan pendidikan berbasis pesantren dengan program RA, MI, SMP, dan SMK.",
+} as const;
+
 export default function SEO({
   title,
   description,
@@ -87,33 +108,11 @@ export default function SEO({
     }
   }, [title, description, keywords, image, url, type, noindex]);
 
-  // Organization JSON-LD
-  const organizationSchema = {
-    "@context": "https://schema.org",
-    "@type": "EducationalOrganization",
-    name: "Yayasan Pendidikan & Sosial Al-Khusyu'",
-    url: "https://www.alkhusyu.com",
-    logo: "https://www.alkhusyu.com/navbar-logo.png",
-    address: {
-      "@type": "PostalAddress",
-      addressLocality: "Blitar",
-      addressRegion: "Jawa Timur",
-      addressCountry: "ID",
-    },
-    contactPoint: {
-      "@type": "ContactPoint",
-      contactType: "customer service",
-    },
-    sameAs: [],
-    description:
-      "Yayasan Al-Khusyu' menyelenggarakan pendidikan berbasis pesantren dengan program RA, MI, SMP, dan SMK.",
-  };
-
   useEffect(() => {
     const script = document.createElement("script");
     script.type = "application/ld+json";
     script.id = "organization-schema";
-    script.textContent = JSON.stringify(organizationSchema);
+    script.textContent = JSON.stringify(ORGANIZATION_SCHEMA);
 
     const existingScript = document.getElementById("organization-schema");
     if (existingScript) {
