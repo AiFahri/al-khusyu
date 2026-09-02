@@ -145,3 +145,16 @@ flowchart TB
 | Build | Vite 7 | Local development and optimized production bundles |
 | Quality | ESLint, TypeScript | Static analysis and type validation |
 | Discovery | Metadata, JSON-LD, sitemap, robots.txt | Search and social presentation |
+
+## Engineering Highlights
+
+- Route-level page modules keep institutional journeys explicit and reviewable.
+- Typed content collections separate editorial records from presentation logic.
+- Shared education components give facilities, missions, organizations,
+  activities, and achievements a consistent structure across units.
+- Responsive navigation supports wide and compact viewports from one route map.
+- Lazy media loading and reusable optimized-image behavior reduce avoidable
+  page weight while preserving descriptive alternative text.
+- Per-page metadata and organization JSON-LD provide a foundation for search and
+  social discovery.
+- SPA fallback configuration preserves deep links when deployed to Vercel.
