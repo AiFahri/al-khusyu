@@ -107,3 +107,28 @@ help each education unit retain its own identity inside one foundation website.
 
 The current education routes cover `madrasah`, `tk`, `smp`, `smk`, `tahfidz`,
 `pesantren`, `diniyah`, `tpq`, `bq`, `sanggar`, and `lksa`.
+
+## Architecture
+
+AlKhusyu is a client-rendered React application built as a typed, component-led
+frontend. React Router owns public navigation, page modules compose each
+institutional journey, and local TypeScript data modules provide reusable
+program, activity, and achievement content.
+
+```mermaid
+flowchart TB
+    Visitor[Visitor]
+    Router[React Router]
+    Pages[Page modules]
+    Components[Reusable interface components]
+    Content[Typed local content]
+    SEO[Metadata and JSON-LD]
+    Static[Static media]
+
+    Visitor --> Router
+    Router --> Pages
+    Pages --> Components
+    Pages --> Content
+    Pages --> SEO
+    Components --> Static
+```
