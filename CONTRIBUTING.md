@@ -29,3 +29,11 @@ the outcome, for example `fix(navigation): preserve education deep links`.
 Content contributions must include an attributable source or confirmation from
 the responsible education unit. Images need meaningful alternative text,
 appropriate compression, and permission for public use.
+
+## Copyright
+
+Copyright (c) 2026 [AiFahri](https://github.com/AiFahri) and
+[ibamzjr](https://github.com/ibamzjr). All rights reserved.
+
+Submitting a contribution does not transfer or waive the contributors' existing
+rights unless a separate written agreement explicitly states otherwise.

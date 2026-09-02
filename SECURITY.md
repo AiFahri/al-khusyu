@@ -22,3 +22,11 @@ This repository is a static institutional frontend. It must not contain:
 Rotate any exposed secret at its provider before removing it from Git history.
 Deleting a secret from the latest commit does not invalidate the credential or
 remove it from earlier commits.
+
+## Copyright
+
+Copyright (c) 2026 [AiFahri](https://github.com/AiFahri) and
+[ibamzjr](https://github.com/ibamzjr). All rights reserved.
+
+Security reports, private correspondence, and remediation details do not grant
+permission to redistribute the project's protected materials.
