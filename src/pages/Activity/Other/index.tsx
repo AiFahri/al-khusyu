@@ -3,10 +3,10 @@ import { ArrowUpRight } from "lucide-react";
 import { Link } from "react-router";
 import { slugify, truncate } from "@/lib/utils";
 import { useState } from "react";
-import { ACTIVITIES } from "@/data/activity";
+import { ACTIVITIES, type ActivityItem } from "@/data/activity";
 
 export default function Other() {
-  const itemList = ACTIVITIES.concat([
+  const additionalActivities: ActivityItem[] = [
     {
       image: "/image/mi-3.webp",
       title: "Gerakan Literasi MI Al-Khusyu'",
@@ -21,7 +21,8 @@ export default function Other() {
         "Pelatihan kewirausahaan digital bagi siswa SMK Al-Khusyu' untuk mengembangkan keterampilan bisnis dan entrepreneurship sesuai dengan kebutuhan industri modern.",
       date: "25 OKTOBER 2025",
     },
-  ]).slice(0, 10);
+  ];
+  const itemList = ACTIVITIES.concat(additionalActivities).slice(0, 10);
 
   const ItemCard = ({
     image,
@@ -92,7 +93,7 @@ export default function Other() {
             key={i}
             image={item.image}
             title={item.title}
-            summary={(item as any).content?.[0] || item.summary}
+            summary={item.content?.[0] || item.summary}
             date={item.date}
           />
         ))}

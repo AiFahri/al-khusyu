@@ -233,6 +233,21 @@ When publishing content:
 4. Review the corresponding detail route on mobile and desktop.
 5. Re-run lint and the production build before deployment.
 
+## Documentation Map
+
+| Collection | Focus |
+| --- | --- |
+| [Product scope](docs/product-scope.md) | Audiences, journeys, capabilities, and exclusions |
+| [Architecture](docs/architecture.md) | Runtime boundaries and source responsibilities |
+| [Routes](docs/routes.md) | Public routes and deep-link behavior |
+| [Content](docs/content-model.md) | Typed collections and publication rules |
+| [Design](docs/design.md) | Interface, responsive, media, and interaction principles |
+| [Quality](docs/quality.md) | Automated and manual verification |
+| [Deployment](docs/deployment.md) | Build, release, and rollback responsibilities |
+| [Decisions](docs/decisions/README.md) | Accepted architecture decision records |
+
+The complete documentation index is available in [docs/README.md](docs/README.md).
+
 ## Project Status
 
 AlKhusyu is an active institutional frontend. The repository represents the

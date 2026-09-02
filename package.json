@@ -1,11 +1,17 @@
 {
-  "name": "alhusyu-web",
+  "name": "al-khusyu-web",
   "private": true,
   "version": "0.0.0",
+  "description": "Public institutional frontend for Yayasan Pendidikan dan Sosial Al-Khusyu'.",
+  "engines": {
+    "node": ">=20.19.0",
+    "npm": ">=10.0.0"
+  },
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
+    "typecheck": "tsc -b --pretty false",
     "lint": "eslint .",
     "preview": "vite preview"
   },
