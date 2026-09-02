@@ -31,3 +31,14 @@
 > website. Content, imagery, and deployment configuration should be reviewed by
 > the foundation before a production release.
 
+## Overview
+
+AlKhusyu is the public digital presence of Yayasan Pendidikan dan Sosial
+Al-Khusyu' in Blitar, Indonesia. It brings the foundation's identity and its
+education ecosystem into one coherent interface for prospective families,
+students, staff, alumni, and the wider community.
+
+The experience is designed around discovery rather than administration.
+Visitors can understand the foundation, compare education units, explore
+programs and activities, review achievements, and continue into detailed
+content without leaving the institutional context.
