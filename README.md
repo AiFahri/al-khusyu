@@ -244,3 +244,15 @@ Production readiness depends on verified institutional content, approved media,
 domain and analytics configuration, accessibility review, dependency review,
 and deployment monitoring. These responsibilities should be completed by the
 maintainers responsible for the live service.
+
+## Contributors
+
+AlKhusyu is developed and maintained through the collaboration of:
+
+- [AiFahri](https://github.com/AiFahri) - original project and application
+  implementation.
+- [ibamzjr](https://github.com/ibamzjr) - repository presentation,
+  documentation, and engineering contributions.
+
+Contributions should be proposed through a focused branch and pull request,
+with clear commit messages and successful lint and build checks.
