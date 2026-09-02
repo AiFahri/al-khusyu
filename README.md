@@ -53,3 +53,22 @@ content without leaving the institutional context.
 | Activities | Current activity collection with reusable editorial entries |
 | Achievements | Achievement overview and individual stories |
 | Discovery | Search-friendly metadata, sitemap coverage, and responsive navigation |
+
+## Experience Model
+
+```mermaid
+flowchart LR
+    A[Discover Al-Khusyu'] --> B[Understand the foundation]
+    B --> C[Explore education units]
+    C --> D[Review facilities and programs]
+    A --> E[Browse activities]
+    A --> F[Read achievements]
+    D --> G[Continue to the relevant institution]
+    E --> G
+    F --> G
+```
+
+The route model keeps foundation-level context available while visitors move
+into a specific institution or content collection. Reusable page sections give
+each unit a consistent structure without forcing every unit to tell the same
+story.
