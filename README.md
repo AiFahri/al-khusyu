@@ -202,3 +202,18 @@ npm run preview
 the TypeScript project build before Vite produces the deployable `dist`
 directory. `npm run preview` serves that production output for a final local
 review.
+
+## Deployment
+
+The repository includes `vercel.json` with a catch-all rewrite to `index.html`,
+allowing direct access to nested React Router URLs. A deployment should use:
+
+| Setting | Value |
+| --- | --- |
+| Install command | `npm ci` |
+| Build command | `npm run build` |
+| Output directory | `dist` |
+
+Before promoting a release, validate the canonical production domain, every
+public route, metadata previews, sitemap URLs, media licensing, and responsive
+behavior against the deployed build.
