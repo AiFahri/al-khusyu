@@ -169,3 +169,23 @@ JSON-LD through the shared `SEO` component. Static crawler entry points live in
 Search metadata is part of the content contract. When a public route or domain
 changes, update its page metadata, canonical URL, sitemap entry, and crawler
 policy together so discovery signals do not diverge from the rendered site.
+
+## Local Development
+
+### Prerequisites
+
+- Node.js 20 or newer
+- npm 10 or newer
+
+### Setup
+
+```bash
+git clone https://github.com/ibamzjr/AlKhusyu.git
+cd AlKhusyu
+npm ci
+npm run dev
+```
+
+Vite prints the local development URL after startup. The development server
+supports client-side navigation; the production host must provide the same SPA
+fallback for deep links.
