@@ -132,3 +132,16 @@ flowchart TB
     Pages --> SEO
     Components --> Static
 ```
+
+## Technology Profile
+
+| Layer | Technology | Responsibility |
+| --- | --- | --- |
+| Application | React 19, TypeScript 5 | Typed page and component composition |
+| Navigation | React Router 7 | Foundation, collection, detail, and education-unit routes |
+| Styling | Tailwind CSS 4 | Responsive layout and design tokens |
+| Components | Radix Slot, class-variance-authority | Reusable component behavior and variants |
+| Interaction | Embla Carousel, Lucide React | Media collections and interface iconography |
+| Build | Vite 7 | Local development and optimized production bundles |
+| Quality | ESLint, TypeScript | Static analysis and type validation |
+| Discovery | Metadata, JSON-LD, sitemap, robots.txt | Search and social presentation |
