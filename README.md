@@ -1,174 +1,258 @@
-# Al-Khusyu’ Islamic Education Foundation Website
-
 <p align="center">
-  <img src="public/navbar-logo.png" width="180" alt="Al-Khusyu' Logo">
+  <img src="assets/alkhusyu-hero.webp" width="100%" alt="AlKhusyu education foundation experience displayed on a laptop" />
 </p>
 
-<h1 align="center">Al-Khusyu’ Education Foundation Web Platform</h1>
+<h1 align="center">AlKhusyu</h1>
 
 <p align="center">
-  <strong>Modern Digital Platform for Yayasan Pendidikan dan Sosial Al-Khusyu’, Kab. Blitar, Indonesia</strong>
+  A considered digital platform for Yayasan Pendidikan dan Sosial Al-Khusyu',
+  connecting institutional identity, education units, programs, activities,
+  achievements, and community information.
 </p>
 
 <p align="center">
-  <a href="#features">Features</a> •
-  <a href="#tech-stack">Tech Stack</a> •
-  <a href="#installation">Installation</a> •
-  <a href="#usage">Usage</a> •
-  <a href="#contributing">Contributing</a> •
-  <a href="#license">License</a>
+  <a href="https://alkhusyu.com"><strong>Live Website</strong></a>
+  &nbsp;&middot;&nbsp;
+  <a href="#experience-model">Experience Model</a>
+  &nbsp;&middot;&nbsp;
+  <a href="#local-development">Local Development</a>
 </p>
-
----
-
-## 🌐 Live Demo
-
-Visit: **[https://alkhusyu.com](https://alkhusyu.com)**
-
----
-
-## 📖 About
-
-**Al-Khusyu’ Web** is a professional, SEO-first website for Yayasan Pendidikan dan Sosial Al-Khusyu’, serving its education units—from preschool (RA/TK) to high school (SMK), boarding, and special programs in Blitar, Indonesia. This site acts as the digital face of the Foundation, highlights school excellence, dynamic activities, achievements, and programs across all units.
-
-### 🎯 Mission
-
-Empower Islamic education and social outreach through digital transformation—delivering accessibility, information transparency, and engagement for students, parents, teachers, and the public.
-
----
-
-## ✨ Features
-
-### 🎓 Foundation & Schools Profile
-
-- Detailed organization profile: About, Vision, Mission, Structure
-- Dedicated landing pages for each education unit (RA/TK, MI, SMP, SMK, Pesantren, etc.)
-- Unit sections: facilities, curriculum, featured programs, teachers, activities
-
-### 🏅 Achievements Log
-
-- Modern achievement listing and detailed pages (text + images)
-- Route: `/prestasi` and `/prestasi/:slug`
-- Structured data and SEO friendly
-
-### 🏆 Programs & Activities
-
-- Full-featured Program and Activity listing
-- Dynamic activity pages (with route: `/kegiatan` and `/kegiatan/:slug`)
-- Reusable data-driven components for activities, organizations, and programs
-
-### 📸 Gallery & Visuals
-
-- Visual gallery showcases key events, leaders, facilities (image-based, lazy loading)
-- Modern carousel and responsive grids
-
-### 🌟 SEO & Performance
-
-- Dynamic Title, Meta description, Keywords, OG, Twitter Card
-- JSON-LD structured data for educational organization
-- Optimized images with lazy loading throughout
-- SPA routing for Vercel/Apache (404-proof)
-- Sitemap.xml & robots.txt ready
-
-### 💠 Tech
-
-- Modular, strongly-typed React + TypeScript codebase
-- Data-driven content (easy editing via `src/data/`)
-- Mobile-first, accessible, fully responsive
-
----
-
-## 🛠️ Tech Stack
-
-- **Frontend:** React 18 (TypeScript), Vite, Tailwind CSS, React Router
-- **State/SEO:** Native state (hooks), Custom SEO/Helmet component
-- **Tooling:** ESLint, Prettier, ready for Vercel, Netlify, or static deployment
-
----
-
-## 🚀 Installation
-
-> **Prerequisites**: Node.js >= 16.x, npm >= 8.x
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/AiFahri/al-khusyu.git
-   cd alkhusyu-web
-   ```
-2. **Install dependencies**
-   ```bash
-   npm install
-   ```
-3. **Run the local development server**
-   ```bash
-   npm run dev
-   ```
-4. **Build for production**
-   ```bash
-   npm run build
-   ```
-
----
-
-## 📖 Usage
-
-- **Browse foundation and school profiles**: /, /tentang, /pendidikan/[unit]
-- **View achievements and details**: /prestasi, /prestasi/:slug
-- **Explore featured programs and activities**: /program, /program/:slug, /kegiatan, /kegiatan/:slug
-- **Access news and visual gallery**: on home and gallery sections
-- **SEO and metadata**: reviews and edits in `/src/components/SEO.tsx` and `/index.html`
-
-Content can be updated by editing TypeScript data files in `src/data/` folder (for activities, programs, achievements, etc).
-
----
-
-## 🗺️ Main Pages & Routes
-
-- `/` — Homepage (institutional overview)
-- `/tentang` — About the Foundation
-- `/kegiatan` — Activities index (with `/kegiatan/:slug` for detail)
-- `/prestasi` — Achievements (with `/prestasi/:slug` for detail)
-- `/program` — Highlighted programs (with `/program/:slug` for detail)
-- `/pendidikan/tk`, `/pendidikan/madrasah`, `/pendidikan/smp`, `/pendidikan/smk`, etc.
-
----
-
-## 🔧 Configuration & SEO
-
-- **SEO**: `<SEO />` component (dynamic tags, OG, Twitter, JSON-LD)
-- **Static Assets**: place images in `/public/image` and reference by path
-- **Routing**: SPA fallback for all unknown paths (`vercel.json`, `.htaccess`)
-- **Sitemap / robots.txt**: config in `/public` for search engine discoverability
-
----
-
-## 🤝 Contributing
-
-We welcome contributions!
-
-1. Fork the repo
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'add amazing feature'`)
-4. Push to your branch (`git push origin feature/amazing-feature`)
-5. Submit a Pull Request
-
-**Guidelines:**
-
-- Use TypeScript and Tailwind for UI
-- Clear, meaningful commit messages
-- Ensure code is reusable and documented
-- Update README for major changes
-
----
-
-## 🙏 Acknowledgments
-
-- Yayasan Pendidikan dan Sosial Al-Khusyu’
-- All school staff, students & open-source community
 
 <p align="center">
-    <strong>Built with ❤️ for Islamic education and community empowerment</strong>
+  <img src="https://img.shields.io/badge/status-active-214E47?style=flat-square" alt="Active project" />
+  <img src="https://img.shields.io/badge/React-19-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React 19" />
+  <img src="https://img.shields.io/badge/TypeScript-5-1F6FEB?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript 5" />
+  <img src="https://img.shields.io/badge/Vite-7-646CFF?style=flat-square&logo=vite&logoColor=white" alt="Vite 7" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-4-0F766E?style=flat-square&logo=tailwindcss&logoColor=white" alt="Tailwind CSS 4" />
 </p>
-<p align="center">
-    <sub>Empowering generations through digital Islamic education</sub>
-</p>
+
+> [!NOTE]
+> This repository contains the public frontend for the Al-Khusyu' institutional
+> website. Content, imagery, and deployment configuration should be reviewed by
+> the foundation before a production release.
+
+## Overview
+
+AlKhusyu is the public digital presence of Yayasan Pendidikan dan Sosial
+Al-Khusyu' in Blitar, Indonesia. It brings the foundation's identity and its
+education ecosystem into one coherent interface for prospective families,
+students, staff, alumni, and the wider community.
+
+The experience is designed around discovery rather than administration.
+Visitors can understand the foundation, compare education units, explore
+programs and activities, review achievements, and continue into detailed
+content without leaving the institutional context.
+
+## Platform At A Glance
+
+| Area | Public experience |
+| --- | --- |
+| Foundation | Institutional profile, history, mission, and organizational context |
+| Education | Dedicated journeys for Madrasah, TK, SMP, SMK, Tahfidz, Pesantren, Diniyah, TPQ, BQ, Sanggar, and LKSA |
+| Programs | Discoverable program catalogue with focused detail pages |
+| Activities | Current activity collection with reusable editorial entries |
+| Achievements | Achievement overview and individual stories |
+| Discovery | Search-friendly metadata, sitemap coverage, and responsive navigation |
+
+## Experience Model
+
+```mermaid
+flowchart LR
+    A[Discover Al-Khusyu'] --> B[Understand the foundation]
+    B --> C[Explore education units]
+    C --> D[Review facilities and programs]
+    A --> E[Browse activities]
+    A --> F[Read achievements]
+    D --> G[Continue to the relevant institution]
+    E --> G
+    F --> G
+```
+
+The route model keeps foundation-level context available while visitors move
+into a specific institution or content collection. Reusable page sections give
+each unit a consistent structure without forcing every unit to tell the same
+story.
+
+## Selected Experiences
+
+<table>
+  <tr>
+    <td width="50%">
+      <img src="assets/alkhusyu-program-experience.webp" alt="AlKhusyu education and program experience" />
+    </td>
+    <td width="50%">
+      <img src="assets/alkhusyu-editorial-experience.webp" alt="AlKhusyu foundation news and editorial experience" />
+    </td>
+  </tr>
+  <tr>
+    <td align="center"><strong>Education and program discovery</strong></td>
+    <td align="center"><strong>Foundation stories and community context</strong></td>
+  </tr>
+</table>
+
+The visual system balances institutional clarity with a contemporary editorial
+presentation. Large media, deliberate typography, and structured content blocks
+help each education unit retain its own identity inside one foundation website.
+
+## Navigation Model
+
+| Route | Purpose |
+| --- | --- |
+| `/` | Foundation overview, education entry points, mission, programs, news, and achievements |
+| `/tentang` | Foundation history and mission |
+| `/kegiatan` | Activity collection and `/kegiatan/:slug` detail pages |
+| `/program` | Program collection and `/program/:slug` detail pages |
+| `/prestasi` | Achievement collection and `/prestasi/:slug` entries |
+| `/pendidikan/:unit` | Focused education-unit experiences |
+
+The current education routes cover `madrasah`, `tk`, `smp`, `smk`, `tahfidz`,
+`pesantren`, `diniyah`, `tpq`, `bq`, `sanggar`, and `lksa`.
+
+## Architecture
+
+AlKhusyu is a client-rendered React application built as a typed, component-led
+frontend. React Router owns public navigation, page modules compose each
+institutional journey, and local TypeScript data modules provide reusable
+program, activity, and achievement content.
+
+```mermaid
+flowchart TB
+    Visitor[Visitor]
+    Router[React Router]
+    Pages[Page modules]
+    Components[Reusable interface components]
+    Content[Typed local content]
+    SEO[Metadata and JSON-LD]
+    Static[Static media]
+
+    Visitor --> Router
+    Router --> Pages
+    Pages --> Components
+    Pages --> Content
+    Pages --> SEO
+    Components --> Static
+```
+
+## Technology Profile
+
+| Layer | Technology | Responsibility |
+| --- | --- | --- |
+| Application | React 19, TypeScript 5 | Typed page and component composition |
+| Navigation | React Router 7 | Foundation, collection, detail, and education-unit routes |
+| Styling | Tailwind CSS 4 | Responsive layout and design tokens |
+| Components | Radix Slot, class-variance-authority | Reusable component behavior and variants |
+| Interaction | Embla Carousel, Lucide React | Media collections and interface iconography |
+| Build | Vite 7 | Local development and optimized production bundles |
+| Quality | ESLint, TypeScript | Static analysis and type validation |
+| Discovery | Metadata, JSON-LD, sitemap, robots.txt | Search and social presentation |
+
+## Engineering Highlights
+
+- Route-level page modules keep institutional journeys explicit and reviewable.
+- Typed content collections separate editorial records from presentation logic.
+- Shared education components give facilities, missions, organizations,
+  activities, and achievements a consistent structure across units.
+- Responsive navigation supports wide and compact viewports from one route map.
+- Lazy media loading and reusable optimized-image behavior reduce avoidable
+  page weight while preserving descriptive alternative text.
+- Per-page metadata and organization JSON-LD provide a foundation for search and
+  social discovery.
+- SPA fallback configuration preserves deep links when deployed to Vercel.
+
+## Search And Discovery
+
+The application maintains document titles, descriptions, keywords, canonical
+URLs, Open Graph fields, Twitter Card fields, and educational-organization
+JSON-LD through the shared `SEO` component. Static crawler entry points live in
+`public/robots.txt` and `public/sitemap.xml`.
+
+Search metadata is part of the content contract. When a public route or domain
+changes, update its page metadata, canonical URL, sitemap entry, and crawler
+policy together so discovery signals do not diverge from the rendered site.
+
+## Local Development
+
+### Prerequisites
+
+- Node.js 20 or newer
+- npm 10 or newer
+
+### Setup
+
+```bash
+git clone https://github.com/ibamzjr/AlKhusyu.git
+cd AlKhusyu
+npm ci
+npm run dev
+```
+
+Vite prints the local development URL after startup. The development server
+supports client-side navigation; the production host must provide the same SPA
+fallback for deep links.
+
+### Quality Commands
+
+```bash
+npm run lint
+npm run build
+npm run preview
+```
+
+`npm run lint` checks the TypeScript and React source. `npm run build` performs
+the TypeScript project build before Vite produces the deployable `dist`
+directory. `npm run preview` serves that production output for a final local
+review.
+
+## Deployment
+
+The repository includes `vercel.json` with a catch-all rewrite to `index.html`,
+allowing direct access to nested React Router URLs. A deployment should use:
+
+| Setting | Value |
+| --- | --- |
+| Install command | `npm ci` |
+| Build command | `npm run build` |
+| Output directory | `dist` |
+
+Before promoting a release, validate the canonical production domain, every
+public route, metadata previews, sitemap URLs, media licensing, and responsive
+behavior against the deployed build.
+
+## Content Maintenance
+
+Editorial collections live under `src/data`, while education-unit narratives
+are composed in `src/pages/Education`. Static media belongs in `public/image`
+and repository presentation media belongs in `assets`.
+
+When publishing content:
+
+1. Confirm names, dates, locations, and institutional terminology with the
+   responsible education unit.
+2. Provide meaningful alternative text and appropriately sized media.
+3. Keep collection slugs stable after publication.
+4. Review the corresponding detail route on mobile and desktop.
+5. Re-run lint and the production build before deployment.
+
+## Project Status
+
+AlKhusyu is an active institutional frontend. The repository represents the
+public presentation layer and does not include a content-management backend,
+private foundation records, admissions processing, payment operations, or
+student information systems.
+
+Production readiness depends on verified institutional content, approved media,
+domain and analytics configuration, accessibility review, dependency review,
+and deployment monitoring. These responsibilities should be completed by the
+maintainers responsible for the live service.
+
+## Contributors
+
+AlKhusyu is developed and maintained through the collaboration of:
+
+- [AiFahri](https://github.com/AiFahri) - original project and application
+  implementation.
+- [ibamzjr](https://github.com/ibamzjr) - repository presentation,
+  documentation, and engineering contributions.
+
+Contributions should be proposed through a focused branch and pull request,
+with clear commit messages and successful lint and build checks.
