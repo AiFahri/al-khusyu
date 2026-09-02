@@ -2,6 +2,7 @@
   "name": "al-khusyu-web",
   "private": true,
   "version": "0.0.0",
+  "description": "Public institutional frontend for Yayasan Pendidikan dan Sosial Al-Khusyu'.",
   "type": "module",
   "scripts": {
     "dev": "vite",
