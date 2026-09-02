@@ -158,3 +158,14 @@ flowchart TB
 - Per-page metadata and organization JSON-LD provide a foundation for search and
   social discovery.
 - SPA fallback configuration preserves deep links when deployed to Vercel.
+
+## Search And Discovery
+
+The application maintains document titles, descriptions, keywords, canonical
+URLs, Open Graph fields, Twitter Card fields, and educational-organization
+JSON-LD through the shared `SEO` component. Static crawler entry points live in
+`public/robots.txt` and `public/sitemap.xml`.
+
+Search metadata is part of the content contract. When a public route or domain
+changes, update its page metadata, canonical URL, sitemap entry, and crawler
+policy together so discovery signals do not diverge from the rendered site.
