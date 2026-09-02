@@ -232,3 +232,15 @@ When publishing content:
 3. Keep collection slugs stable after publication.
 4. Review the corresponding detail route on mobile and desktop.
 5. Re-run lint and the production build before deployment.
+
+## Project Status
+
+AlKhusyu is an active institutional frontend. The repository represents the
+public presentation layer and does not include a content-management backend,
+private foundation records, admissions processing, payment operations, or
+student information systems.
+
+Production readiness depends on verified institutional content, approved media,
+domain and analytics configuration, accessibility review, dependency review,
+and deployment monitoring. These responsibilities should be completed by the
+maintainers responsible for the live service.
