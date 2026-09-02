@@ -189,3 +189,16 @@ npm run dev
 Vite prints the local development URL after startup. The development server
 supports client-side navigation; the production host must provide the same SPA
 fallback for deep links.
+
+### Quality Commands
+
+```bash
+npm run lint
+npm run build
+npm run preview
+```
+
+`npm run lint` checks the TypeScript and React source. `npm run build` performs
+the TypeScript project build before Vite produces the deployable `dist`
+directory. `npm run preview` serves that production output for a final local
+review.
