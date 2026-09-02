@@ -217,3 +217,18 @@ allowing direct access to nested React Router URLs. A deployment should use:
 Before promoting a release, validate the canonical production domain, every
 public route, metadata previews, sitemap URLs, media licensing, and responsive
 behavior against the deployed build.
+
+## Content Maintenance
+
+Editorial collections live under `src/data`, while education-unit narratives
+are composed in `src/pages/Education`. Static media belongs in `public/image`
+and repository presentation media belongs in `assets`.
+
+When publishing content:
+
+1. Confirm names, dates, locations, and institutional terminology with the
+   responsible education unit.
+2. Provide meaningful alternative text and appropriately sized media.
+3. Keep collection slugs stable after publication.
+4. Review the corresponding detail route on mobile and desktop.
+5. Re-run lint and the production build before deployment.
