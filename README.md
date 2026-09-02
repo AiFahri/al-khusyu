@@ -93,3 +93,17 @@ story.
 The visual system balances institutional clarity with a contemporary editorial
 presentation. Large media, deliberate typography, and structured content blocks
 help each education unit retain its own identity inside one foundation website.
+
+## Navigation Model
+
+| Route | Purpose |
+| --- | --- |
+| `/` | Foundation overview, education entry points, mission, programs, news, and achievements |
+| `/tentang` | Foundation history and mission |
+| `/kegiatan` | Activity collection and `/kegiatan/:slug` detail pages |
+| `/program` | Program collection and `/program/:slug` detail pages |
+| `/prestasi` | Achievement collection and `/prestasi/:slug` entries |
+| `/pendidikan/:unit` | Focused education-unit experiences |
+
+The current education routes cover `madrasah`, `tk`, `smp`, `smk`, `tahfidz`,
+`pesantren`, `diniyah`, `tpq`, `bq`, `sanggar`, and `lksa`.
