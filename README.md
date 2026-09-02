@@ -72,3 +72,24 @@ The route model keeps foundation-level context available while visitors move
 into a specific institution or content collection. Reusable page sections give
 each unit a consistent structure without forcing every unit to tell the same
 story.
+
+## Selected Experiences
+
+<table>
+  <tr>
+    <td width="50%">
+      <img src="assets/alkhusyu-program-experience.webp" alt="AlKhusyu education and program experience" />
+    </td>
+    <td width="50%">
+      <img src="assets/alkhusyu-editorial-experience.webp" alt="AlKhusyu foundation news and editorial experience" />
+    </td>
+  </tr>
+  <tr>
+    <td align="center"><strong>Education and program discovery</strong></td>
+    <td align="center"><strong>Foundation stories and community context</strong></td>
+  </tr>
+</table>
+
+The visual system balances institutional clarity with a contemporary editorial
+presentation. Large media, deliberate typography, and structured content blocks
+help each education unit retain its own identity inside one foundation website.
