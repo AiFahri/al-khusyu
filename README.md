@@ -42,3 +42,14 @@ The experience is designed around discovery rather than administration.
 Visitors can understand the foundation, compare education units, explore
 programs and activities, review achievements, and continue into detailed
 content without leaving the institutional context.
+
+## Platform At A Glance
+
+| Area | Public experience |
+| --- | --- |
+| Foundation | Institutional profile, history, mission, and organizational context |
+| Education | Dedicated journeys for Madrasah, TK, SMP, SMK, Tahfidz, Pesantren, Diniyah, TPQ, BQ, Sanggar, and LKSA |
+| Programs | Discoverable program catalogue with focused detail pages |
+| Activities | Current activity collection with reusable editorial entries |
+| Achievements | Achievement overview and individual stories |
+| Discovery | Search-friendly metadata, sitemap coverage, and responsive navigation |
